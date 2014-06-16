@@ -13,9 +13,9 @@
            fetch="ssh://git@github.com" />
 
  <remote  name="githubar"
-           fetch="git@github.com"
-           revision="refs/heads/cm-11.0"
-	   sync-j="4"/>
+          fetch=".." 
+          revision="refs/heads/cm-11.0"
+	  sync-j="4"/>
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
