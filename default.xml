@@ -13,7 +13,7 @@
            fetch="ssh://git@github.com" />
 
  <remote  name="githubar"
-           fetch="https://github.com/"
+           fetch="git@github.com"
            revision="refs/heads/cm-11.0"
 	   sync-j="4"/>
 
